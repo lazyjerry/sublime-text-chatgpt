@@ -1,0 +1,59 @@
+[
+  {
+    "id":"tools",
+    "children":[
+      {
+        "id":"chatgpt",
+        "caption":"👽 ChatGPT",
+        "command":"chatgpt",
+      }
+    ]
+  },
+  {
+    "id": "preferences",
+    "children":[
+      {
+        "id":"package-settings",
+        "children":[
+          {
+            "caption":"👽 ChatGPT",
+            "children":[
+            {
+                "caption": "Settings - Default",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/chatgpt/chatgpt.sublime-settings"
+                }
+            },
+            {
+                "caption": "Settings - User",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/User/chatgpt.sublime-settings"
+                }
+            },
+            {
+                "caption": "-"
+            },
+            {
+                "caption": "Key Bindings - Default",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/chatgpt/Default.sublime-keymap"
+                }
+            },
+            {
+                "caption": "Key Bindings - User",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/User/chatgpt.sublime-keymap"
+                }
+            },
+          ]
+          }
+        ]
+        
+      }
+    ]
+  }
+]
